@@ -1,0 +1,93 @@
+Script started on Mon 27 Mar 2023 08:10:03 PM HST
+]0;lakeyzeb@uhx02:~/project1[?1034huhx02:/home/l/lakeyzeb/project1% ./[rpj[K[K[K[Kpeo[Kr[K[Kroject
+Hello! This is a program that mimics a bank database
+
+Please choose a menu option:
+add: Add a new record in the database
+printall: Print all records in database
+find: Find record(s) within a specific account #
+delete: Delete existing record(s) from the database using the account # as a key
+quit: quit the program
+
+Please enter a command: add
+You have selected add.
+Please enter an account number: 123
+Please enter your name: Zeb
+Please enter your address
+Press enter twice when done entering address.
+hhhh aaa 
+sss
+s
+
+Address input complete.
+Record has been added.
+Please enter a command: find
+Please enter an account number you would like to find the record for: 123
+Account Number: 123
+Name: Zeb
+Address: hhhh aaa 
+sss
+s
+
+
+1 record(s) found!
+Please enter a command: printall
+Account Number: 123
+Name: Zeb
+Address: hhhh aaa 
+sss
+s
+
+
+ Records printed. If nothing was printed here, no records are in the database.
+Please enter a command: delt ete
+Please enter an account number to delete: 123
+Account number input complete.
+
+1 record(s) deleted!
+Please enter a command: add
+You have selected add.
+Please enter an account number: 44422
+Please enter your name: asd
+Please enter your address
+Press enter twice when done entering address.
+asd
+
+Address input complete.
+Record has been added.
+Please enter a command: add
+You have selected add.
+Please enter an account number: 1245
+Please enter your name: w
+Please enter your address
+Press enter twice when done entering address.
+sa
+
+Address input complete.
+Record has been added.
+Please enter a command: fin   printall
+Account Number: 1245
+Name: w
+Address: sa
+
+Account Number: 44422
+Name: asd
+Address: asd
+
+
+ Records printed. If nothing was printed here, no records are in the database.
+Please enter a command: find
+Please enter an account number you would like to find the record for: 1234  45
+Account Number: 1245
+Name: w
+Address: sa
+
+
+1 record(s) found!
+Please enter a command: delete e      quit
+
+quitting
+]0;lakeyzeb@uhx02:~/project1uhx02:/home/l/lakeyzeb/project1% exit
+exit
+
+Script done on Mon 27 Mar 2023 08:11:38 PM HST

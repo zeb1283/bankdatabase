@@ -1,0 +1,10 @@
+project: user_interface.o database.o
+	gcc -o project user_interface.o database.o
+
+user_interface.o: database.h record.h user_interface.c
+	gcc -ansi -pedantic-errors -Wall -c user_interface.c
+
+database.o: database.h record.h database.c
+	gcc -ansi -pedantic-errors -Wall -c database.c
+
+

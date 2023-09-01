@@ -1,0 +1,9 @@
+Script started on Mon 27 Mar 2023 08:09:36 PM HST
+]0;lakeyzeb@uhx02:~/project1[?1034huhx02:/home/l/lakeyzeb/project1% make
+gcc -ansi -pedantic-errors -Wall -c user_interface.c
+gcc -ansi -pedantic-errors -Wall -c database.c
+gcc -o project user_interface.o database.o
+]0;lakeyzeb@uhx02:~/project1uhx02:/home/l/lakeyzeb/project1% exit
+exit
+
+Script done on Mon 27 Mar 2023 08:09:50 PM HST
